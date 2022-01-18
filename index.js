@@ -28,31 +28,9 @@ newItem('assets/sword.png', '500px', '405px')
 newItem('assets/sheild.png', '165px', '185px')
 newItem('assets/staff.png', '600px', '100px')
 newImage('assets/green-character.gif', '100px', '100px')
+newImage('assets/pillar.png', '350px', '100px')
 
 
-
-
-
-// let greenCharacter = document.createElement('img')
-// greenCharacter.src = 'assets/green-character.gif'
-// greenCharacter.style.position = 'fixed'
-// greenCharacter.style.left = '100px'
-// greenCharacter.style.bottom = '100px'
-// document.body.append(greenCharacter)
-
-// let pineTree = document.createElement('img')
-// pineTree.src = 'assets/pine-tree.png'
-// pineTree.style.position = 'fixed'
-// pineTree.style.left = '450px'
-// pineTree.style.bottom = '200px'
-// document.body.append(pineTree)
-
-// let tree = document.createElement('img')
-// tree.src = 'assets/tree.png'
-// tree.style.position = 'fixed'
-// tree.style.left = '200px'
-// tree.style.bottom = '300px'
-// document.body.append(tree)
 
 // let pillar = document.createElement('img')
 // pillar.src = 'assets/pillar.png'
