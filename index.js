@@ -1,34 +1,34 @@
-function newImage() {
-    let newImage = document.createElement('img')
-    position = 'fixed'
+// function newImage() {
+//     let newImage = document.createElement('img')
+//     position = 'fixed'
 
-    greenCharacter {
-        greenCharacter.src = 'assets/green-character.gif'
-        style.left = '100px'
-        style.bottom = '100px'
-    }
+//     greenCharacter {
+//         greenCharacter.src = 'assets/green-character.gif'
+//         style.left = '100px'
+//         style.bottom = '100px'
+//     }
 
-    pineTree {
-        pineTree.src = 'assets/pine-tree.png'
-        style.left = '450px'
-        style.bottom = '200px'
-    }
+//     pineTree {
+//         pineTree.src = 'assets/pine-tree.png'
+//         style.left = '450px'
+//         style.bottom = '200px'
+//     }
 
-    tree { 
-        tree.src = 'assets/tree.png'
-        style.left = '200px'
-        style.bottom = '300px'
-    }
+//     tree { 
+//         tree.src = 'assets/tree.png'
+//         style.left = '200px'
+//         style.bottom = '300px'
+//     }
 
-    pillar {
-        pillar.src = 'assets/pillar.png'
-        style.left ='350px'
-        style.bottom = '100px'
-    }
+//     pillar {
+//         pillar.src = 'assets/pillar.png'
+//         style.left ='350px'
+//         style.bottom = '100px'
+//     }
 
 
-    document.body.append(newImage)
-}
+//     document.body.append(newImage)
+// }
 
 
 
@@ -60,3 +60,17 @@ function newImage() {
 // pillar.style.left = '350px'
 // pillar.style.bottom = ' 100px'
 // document.body.append(pillar)
+
+let crate = document.createElement('img')
+crate.src = 'assets/crate.png'
+crate.style.position = 'fixed'
+crate.style.left = '150px'
+crate.style.bottom = '200px'
+document.body.append(crate)
+
+let well = document.createElement('img')
+well.src = 'assets/well.png'
+well.style.position = 'fixed'
+well.style.left = '500px'
+well.style.bottom = '425px'
+document.body.append(well)
