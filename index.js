@@ -1,46 +1,34 @@
-// function newImage(style) {
-//     let newImage = document.createElement('img')
-//     position = 'fixed'
 
-//     if greenCharacter() {
-//         greenCharacter.src = 'assets/green-character.gif'
-//         greenCharacter.left = '100px'
-//         greenCharacter.bottom = '100px'
-//     }
+function newImage(source, left, bottom) {
+    let newImage = document.createElement('img')
+    
 
-//     if pineTree() {
-//         pineTree.src = 'assets/pine-tree.png'
-//         pineTree.left = '450px'
-//         pineTree.bottom = '200px'
-//     }
+    newImage.src = source;
+    newImage.style.left = left;
+    newImage.style.bottom = bottom;
+    newImage.style.position = 'fixed';
+    document.body.append(newImage);
+    return newImage
 
-//     if tree() { 
-//         tree.src = 'assets/tree.png'
-//         tree.left = '200px'
-//         tree.bottom = '300px'
-//     }
-
-//     if pillar() {
-//         pillar.src = 'assets/pillar.png'
-//         pillar.left ='350px'
-//         pillar.bottom = '100px'
-//     }
-
-//     if well() {
-//     well.src = 'assets/well.png'
-//     well.left = '500px'
-//     well.bottom = '425px'
-// }
-
-//     if crate() {
-//     crate.src = 'assets/crate.png'
-//     crate.left = '150px'
-//     crate.bottom = '200px'
-// }
+}
+function newItem(source, left, bottom) {
+    let newItem = newImage(source, left, bottom)
 
 
-//     document.body.append(newImage)
-// }
+    newItem.addEventListener('dblclick', function(){
+    newItem.remove()
+})
+
+}
+
+    
+newImage('assets/pine-tree.png', '450px', '200px')
+newImage('assets/tree.png', '200px', '300px')
+newItem('assets/sword.png', '500px', '405px')
+newItem('assets/sheild.png', '165px', '185px')
+newItem('assets/staff.png', '600px', '100px')
+newImage('assets/green-character.gif', '100px', '100px')
+
 
 
 
@@ -109,13 +97,13 @@
 //     shield.remove()
 // })
 
-let staff = document.createElement('img')
-staff.src = 'assets/staff.png'
-staff.style.position = 'fixed'
-staff.style.left = '600px'
-staff.style.bottom = '100px'
-document.body.append(staff)
+// let staff = document.createElement('img')
+// staff.src = 'assets/staff.png'
+// staff.style.position = 'fixed'
+// staff.style.left = '600px'
+// staff.style.bottom = '100px'
+// document.body.append(staff)
 
-staff.addEventListener('dblclick', function(){
-    staff.remove()
-})
+// staff.addEventListener('dblclick', function(){
+//     staff.remove()
+// })
