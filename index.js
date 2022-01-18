@@ -29,15 +29,7 @@ newItem('assets/sheild.png', '165px', '185px')
 newItem('assets/staff.png', '600px', '100px')
 newImage('assets/green-character.gif', '100px', '100px')
 newImage('assets/pillar.png', '350px', '100px')
-
-
-
-// let pillar = document.createElement('img')
-// pillar.src = 'assets/pillar.png'
-// pillar.style.position = 'fixed'
-// pillar.style.left = '350px'
-// pillar.style.bottom = ' 100px'
-// document.body.append(pillar)
+newImage('assets/crate.png', '150px', '200px')
 
 // let crate = document.createElement('img')
 // crate.src = 'assets/crate.png'
